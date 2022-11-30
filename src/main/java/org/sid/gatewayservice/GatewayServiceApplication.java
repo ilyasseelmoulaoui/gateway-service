@@ -28,14 +28,6 @@ public class GatewayServiceApplication {
         return new DiscoveryClientRouteDefinitionLocator(rdc,properties);
     }
 
-
-
-
-
-
-
-
-
         /*  Methode plus ou moins dynamique
     @Bean
     RouteLocator routeLocator(RouteLocatorBuilder builder){
@@ -43,7 +35,6 @@ public class GatewayServiceApplication {
                 .route((r)->r.path("/customers/**").uri("lb://CUSTOMER-SERVICE"))
                 .route((r)->r.path("/products/**").uri("lb://PRODUCT-SERVICE"))
                 .build();
-
     }
     */
 }
